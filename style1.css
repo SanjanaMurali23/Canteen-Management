@@ -1,0 +1,32 @@
+@charset "ISO-8859-1";
+.btn-group .button{
+	background-color: #fcbcb5;
+	border: 1px #fcbcb5;
+	color : white;
+	padding : 15px 32px;
+	text-align: center;
+	text-decoration: none;
+	//display :inline-block;
+	fontsize: 16px;
+	cursor: pointer;
+	width: 250px;
+	display: block;
+}
+.btn-group .button:not(:last-child)
+{
+	border-bottom: none;
+}
+.btn-group .button:hover{
+	background-color: #3e8e41;
+}
+.header {
+  width: 100%;
+  margin: 50px auto 0px;
+  color: green;
+  background: white;
+  text-align: center;
+  border: 1px solid #B0C4DE;
+  border-bottom: none;
+  border-radius: 10px 10px 0px 0px;
+  padding: 20px;
+}

@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="ISO-8859-1">
+	<title>Menu</title>
+	<style>
+		body 
+		{
+    		background-image: url("image/picmenu.jpg");
+    		background-repeat: no-repeat;
+		}
+		div 
+		{
+			border: 2px solid red;
+    		border-radius: 5px;
+    		border-color: #f4cbbd;
+		}
+	</style>
+</head>
+
+<body>
+	<form action="menu.jsp" method="POST">
+		<div>
+			<h3>Vegetarian Starters</h3> 
+			<input type="checkbox" name="order" value="Kachori Kebabs">Kachori Kebabs  &nbsp;&nbsp; &nbsp;       Quantity: <input type="text" name="qty"><br>
+			<input type="checkbox" name="order" value="Cheese Balls"> Cheese Balls        &nbsp;&nbsp;&nbsp;     Quantity: <input type="text" name="qty"><br>
+			<input type="checkbox" name="order" value="Potato Lolipop"> Potato Lolipop   &nbsp;&nbsp;&nbsp;      Quantity: <input type="text" name="qty"><br>
+		</div>
+		<br>	
+		<div>
+			<h3>Non Vegetarian Starters</h3>
+			<input type="checkbox" name="order" value="Chicken Lolipop"> Chicken Lolipop &nbsp;&nbsp;&nbsp;  Quantity: <input type="text" name="qty"><br>
+			<input type="checkbox" name="order" value="Chicken Wings"> Chicken Wings &nbsp;&nbsp;&nbsp;  Quantity: <input type="text" name="qty"><br>
+			<input type="checkbox" name="order" value="Crispy Chicken"> Crispy Chicken &nbsp;&nbsp;&nbsp;  Quantity: <input type="text" name="qty"><br>
+		</div>
+		<br>
+		<div>
+			<h3>Vegetarian Curry</h3>
+			<input type="checkbox" name="order" value="Paneer Butter Masala"> Paneer Butter Masala &nbsp;&nbsp;  Quantity: <input type="text" name="qty"><br>
+			<input type="checkbox" name="order" value="Channa Masala"> Channa Masala &nbsp;&nbsp;&nbsp;  Quantity: <input type="text" name="qty"><br>
+			<input type="checkbox" name="order" value="chilligob"> Chilli Gobi &nbsp;&nbsp;&nbsp;  Quantity: <input type="text" name="qty"><br>
+			<input type="checkbox" name="order" value="aloomasala"> Aloo Masala &nbsp;&nbsp;&nbsp;  Quantity: <input type="text" name="qty"><br>
+		</div>
+		<br>
+		<div>
+			<h3>Non Vegetarian Curry</h3>
+			<input type="checkbox" name="order" value="Chicken 65"> Chicken 65 &nbsp;&nbsp;&nbsp;  Quantity: <input type="text" name="qty"><br>
+			<input type="checkbox" name="order" value="Fish Stew"> Fish Stew &nbsp;&nbsp;&nbsp;  Quantity: <input type="text" name="qty"><br>
+			<input type="checkbox" name="order" value="Pepper Chicken"> Pepper Chicken &nbsp;&nbsp;&nbsp;  Quantity: <input type="text" name="qty"><br>
+			<input type="checkbox" name="order" value="Beef Roast"> Beef Roast &nbsp;&nbsp;&nbsp;&nbsp  Quantity: <input type="text" name="qty"><br>
+		</div>
+		<br>
+		<div>
+			<h3>Vegetarian Main Course</h3>
+			<input type="checkbox" name="order" value="Meals"> Meals &nbsp;&nbsp;&nbsp;  Quantity: <input type="text" name="qty"><br>
+			<input type="checkbox" name="order" value="Paneer Fried">Paneer Fried Rice &nbsp;&nbsp;&nbsp;  Quantity: <input type="text" name="qty"><br>
+			<input type="checkbox" name="order" value="Chappati"> Chappati &nbsp;&nbsp;&nbsp;  Quantity: <input type="text" name="qty"><br>
+			<input type="checkbox" name="order" value="Bhatura"> Bhatura &nbsp;&nbsp;&nbsp;  Quantity: <input type="text" name="qty"><br>
+			<input type="checkbox" name="order" value="Dosa"> Dosa &nbsp;&nbsp;&nbsp;  Quantity: <input type="text" name="qty"><br>
+		</div>
+		<br>
+		<div>
+			<h3> Non Vegetarian Main Course </h3>
+			<input type="checkbox" name="order" value="Egg Biriyani"> Egg Biriyani &nbsp;&nbsp;&nbsp;  Quantity: <input type="text" name="qty"><br>
+			<input type="checkbox" name="order" value="Chicken Fried Rice"> Chicken Fried Rice &nbsp;&nbsp;&nbsp;  Quantity: <input type="text" name="qty"><br>
+		</div>
+		<br>
+		<div>
+			<h3>Drinks</h3>
+			<input type="checkbox" name="order" value="Coffee"> Coffee &nbsp;&nbsp;&nbsp;  Quantity: <input type="text" name="qty"><br>
+			<input type="checkbox" name="order" value="Tea"> Tea &nbsp;&nbsp;&nbsp;  Quantity: <input type="text" name="qty"><br>
+			<input type="checkbox" name="order" value="Fresh Lime"> Fresh Lime &nbsp;&nbsp;&nbsp;  Quantity: <input type="text" name="qty"><br>
+			<input type="checkbox" name="order" value="Lime Tea">Lime Tea &nbsp;&nbsp;&nbsp;  Quantity: <input type="text" name="qty"><br>
+			<input type="checkbox" name="order" value="Fresh Juice"> Fresh Juice &nbsp;&nbsp;&nbsp;  Quantity: <input type="text" name="qty"><br>
+		</div>
+		
+		<br>
+		<br>
+		<input TYPE=submit name=submit Value="Submit">	
+	</form>
+</body>
+</html>

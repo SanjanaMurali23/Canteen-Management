@@ -1,0 +1,155 @@
+*{
+    font-family: 'Raleway', sans-serif;
+    
+    
+}
+#banner_image {
+	padding-top: 75px;
+	padding-bottom: 50px;
+	text-align: center;
+	color: #f8f8f8;
+	background: url(image\food.jpg) no-repeat center;
+	background-size: cover;
+}
+
+#banner_content{
+	position: relative;
+	padding-top: 6%;
+	padding-bottom: 6%;
+	margin-top: 12%;
+	margin-bottom: 12%;
+	background-color: rgba(0, 0, 0, 0.7);
+	max-width: 660px;
+
+}
+
+#con1{
+	background-color: #FFF;
+}
+#c1{
+	background-color:#ffffcc;
+
+}
+.line{
+    border-bottom : 2px solid #F32D27;
+}
+
+.jumbotron{
+	background-color: #FC563B;
+    border-radius: 0px;
+    margin: 5px;
+    padding: 5px;
+    color:#FFF 
+}
+.btn-orange{
+    background-color: #FC563B;
+    border-radius: 0px;
+    margin: 5px;
+    padding: 5px;
+    width: 150px;
+    font-size: 20px;
+    font-weight: inherit;
+	color:#FFF 
+}
+
+.btn-orange:hover {
+    background-color: #F22F26;
+    border-radius: 0px;
+    margin: 5px;
+    padding: 5px;
+    width: 150px;
+    font-size: 20px;
+    font-weight: inherit;
+    color:#FFF !important;
+}
+
+.btn-org{
+    background-color: #FF6E33;
+    border-radius: 0px;
+    margin: 5px;
+    padding: 5px;
+    width: 150px;
+    font-size: 20px;
+    font-weight: inherit;
+	color:#FFF 
+}
+
+.btn-org:hover {
+    background-color: FF6433;
+    border-radius: 0px;
+    margin: 5px;
+    padding: 5px;
+    width: 150px;
+    font-size: 20px;
+    font-weight: inherit;
+    color:#FFF !important;
+}
+
+
+
+.btn-grn{
+    background-color: #009933;
+    border-radius: 0px;
+    margin: 5px;
+    padding: 5px;
+    width: 150px;
+    font-size: 16px;
+    font-weight: inherit;
+	color:#FFF 
+}
+
+.btn-grn:hover {
+    background-color: #006633;
+    border-radius: 0px;
+    margin: 5px;
+    padding: 5px;
+    width: 150px;
+    font-size: 16px;
+    font-weight: inherit;
+    color:#FFF !important;
+}
+
+.row_style{
+	margin-top: 50px;
+}
+
+.box{
+	background: #FC563B; 
+	padding:10px;
+}
+.box-control{
+	background: #FFF; 
+	padding:10px;
+	
+}
+h1{
+     font-weight: 200;
+	 color:#FFF
+}
+h3{
+     font-weight: 200;
+	 color:#FFF
+}
+
+#myform {
+    
+    padding: 5px;
+   
+    
+}
+.qty {
+    width: 40px;
+    height: 25px;
+    text-align: center;
+}
+input.qtyplus { width:25px; height:25px;}
+input.qtyminus { width:25px; height:25px;}
+
+footer{
+	padding: 10px 0;
+	background-color: #101010;
+	color:#9d9d9d;
+	bottom: 0;
+	width: 100%;
+	position:fixed;
+}@charset "ISO-8859-1";

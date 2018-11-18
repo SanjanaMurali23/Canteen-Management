@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Home</title>
+<!--link rel="stylesheet" type="text/css" href="style1.css"-->
+<style>
+	.btn-group .button
+	{
+		background-color: #fcbcb5;
+		border: 1 px solid #B0C4DE; 
+		color : white;
+		padding : 15px 32px;
+		text-align: center;
+		text-decoration: none;
+		display :inline-block;
+		font-size: 16px;
+		cursor: pointer;
+		width: 250px;
+		display: block;
+	}
+	.btn-group .button:not(:last-child)
+	{
+		border-bottom: none;
+	}
+	.btn-group .button:hover
+	{
+		background-color: #c2d6d6;
+	}
+	.header 
+	{
+  		width: 100%;
+  		margin: 50px auto 0px;
+  		color: white;
+  		background-color: #fcbcb5;
+  		text-align: center;
+  		border: 1px solid #B0C4DE;
+  		border-bottom: none;
+  		border-radius: 10px 10px 0px 0px;
+  		padding: 20px;
+	}
+</style>
+</head>
+<body background="image/cupcakes.jpg">
+	<div class=header>
+		<h2>Food On Time</h2>
+	</div>
+	<!--form action=""-->
+	<div class="btn-group">
+		<button class ="button" onclick="location.href='menu.html'" >FOOD MENU</button>
+	</div>
+	<div class="btn-group">
+		<button class ="button" onclick="location.href='addBalance.html'" >ADD MONEY</button>
+	</div>
+	<form method="post" action="displayWallet.jsp">
+	<div class="btn-group">
+		<button class ="button">MY WALLET</button>
+	</div>
+	</form>
+	<div class="btn-group">
+		<button class ="button" onclick="location.href='profile.jsp'">PERSONAL DETAILS</button>
+	</div>
+	<form method="post" action="logoutprocess.jsp">
+     <div class="btn-group">
+            <button type="submit"  name="register" class="button">LOGOUT</button>
+        </div>
+ 	</form>
+	
+</body>
+</html>

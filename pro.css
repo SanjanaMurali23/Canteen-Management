@@ -1,0 +1,59 @@
+input.hidden {
+    position: absolute;
+    left: -9999px;
+}
+#profile-image1 {
+    cursor: pointer;
+  
+     width: 100px;
+    height: 100px;
+	border:2px solid #03b1ce ;}
+	.tital{ font-size:16px; font-weight:500;}
+	 .bot-border{ border-bottom:1px #f8f8f8 solid;  margin:5px 0  5px 0}	
+	 
+.container{padding-right:15px;padding-left:15px;margin-right:auto;margin-left:auto}@media (min-width:768px){.container{width:750px}}@media (min-width:992px){.container{width:970px}}@media (min-width:1200px){.container{width:1170px}}.container-fluid{padding-right:15px;padding-left:15px;margin-right:auto;margin-left:auto}
+.col-md-7{
+  border: 1px solid green ;
+}
+
+
+.panel{margin-bottom:20px;border:1px solid transparent;border-radius:4px;-webkit-box-shadow:0 1px 1px rgba(0,0,0,.05);box-shadow:0 1px 1px rgba(0,0,0,.05)}
+
+
+
+.img-circle{border-radius:50%}
+
+
+.btn{
+  padding: 10px;
+  font-size: 15px;
+  color: white;
+  background: #5F9EA0;
+  border: none;
+  border-radius: 5px;
+}
+
+
+.input-group {
+  display: block;
+  text-align: left;
+  margin: 3px;
+}
+
+
+
+
+
+
+
+.logoutLblPos{
+
+  padding: 10px;
+  font-size: 15px;
+  color: white;
+  background: #5F9EA0;
+  border: none;
+  border-radius: 5px;
+  margin-top:1px;
+  margin-right:2px;
+}
